@@ -1,4 +1,6 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import { startGame } from '../actions/GameActions'
 
 export class SetupPage extends React.Component {
   constructor(props) {
@@ -16,6 +18,9 @@ export class SetupPage extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
+    const player_one = {name: this.state.player_one_name}
+    const player_two = {name: this.state.player_two_name}
+    this.props.startGame(player_one, player_two)
     this.props.history.push('/game')
   }
 
@@ -32,4 +37,9 @@ export class SetupPage extends React.Component {
   }
 }
 
-export default SetupPage;
+const mapDispatchToProps = (dispatch) => ({
+  startGame: (player_one, player_two) => dispatch(startGame(player_one, player_two))
+})
+
+
+export default connect(undefined, mapDispatchToProps)(SetupPage);
