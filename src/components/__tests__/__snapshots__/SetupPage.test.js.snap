@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="player_one_name"
+  >
+    Player One Name
+  </label>
+  <input
+    id="player_one_name"
+    onChange={[Function]}
+    type="text"
+  />
+  <label
+    htmlFor="player_two_name"
+  >
+    Player Two Name
+  </label>
+  <input
+    id="player_two_name"
+    onChange={[Function]}
+    type="text"
+  />
+  <input
+    type="submit"
+    value="Submit"
+  />
+</form>
+`;
