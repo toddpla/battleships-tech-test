@@ -4,13 +4,7 @@ import { GamePage } from '../GamePage'
 import renderer from 'react-test-renderer';
 import players from '../../fixtures/players'
 
-const game = {
-  player_one: players[0],
-  player_two: players[1],
-  current_player: players[0]
-}
-
 test('renders correctly', () => {
-  const setupScreen = renderer.create(<GamePage game={game}/>).toJSON();
+  const setupScreen = renderer.create(<GamePage current_player={players[0]} />).toJSON();
   expect(setupScreen).toMatchSnapshot();
 });

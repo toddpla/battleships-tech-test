@@ -6,5 +6,8 @@ exports[`renders correctly 1`] = `
     Current Player: 
     Sophie
   </h1>
+  <button>
+     Next Player
+  </button>
 </div>
 `;
