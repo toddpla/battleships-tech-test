@@ -9,5 +9,7 @@ export default (state = gameReducerDefaultState, action) => {
         player_one: {...action.player_one, ships},
         player_two: {...action.player_two, ships}
       }
+    default:
+      return state
   }
 }
