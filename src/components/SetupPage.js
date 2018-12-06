@@ -1,6 +1,9 @@
 import React from 'react'
 
 export class SetupPage extends React.Component {
+  constructor(props) {
+    super(props)
+  }
   state = {
     player_one_name: '',
     player_two_name: '',
@@ -11,8 +14,9 @@ export class SetupPage extends React.Component {
     this.setState({[event.target.id]: event.target.value})
   }
 
-  handleSubmit(event) {
+  handleSubmit = (event) => {
     event.preventDefault();
+    this.props.history.push('/game')
   }
 
   render() {
