@@ -1,5 +1,5 @@
-import gameReducer from '../../reducers/GameReducer'
-import players from '../fixtures/players'
+import gameReducer from '../GameReducer'
+import players from '../../fixtures/players';
 
 test('should set default state', () => {
   const state = gameReducer(undefined, {type: '@@INIT'})

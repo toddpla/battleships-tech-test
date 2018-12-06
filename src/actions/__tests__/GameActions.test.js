@@ -1,5 +1,5 @@
-import * as actions from '../../actions/GameActions';
-import players from '../fixtures/players';
+import * as actions from '../GameActions';
+import players from '../../fixtures/players';
 
 
 describe('actions', () => {
