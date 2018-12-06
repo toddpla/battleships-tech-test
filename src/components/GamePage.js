@@ -1,25 +1,31 @@
 import React from 'react'
 import { connect } from 'react-redux';
+import { nextPlayer } from '../actions/GameActions'
 
 
 export class GamePage extends React.Component {
 
   constructor(props) {
     super(props)
-  }
+  }si
 
   render() {
     return (
       <div>
-        <h1>Player 1: {this.props.game.player_one.name}</h1>
-        <h1>Player 2: {this.props.game.player_two.name}</h1>
+        <h1>Current Player: {this.props.current_player.name}</h1>
+        <button onClick={this.props.nextPlayer} > Next Player</button>
       </div>
     )
   }
 }
 
 const mapStateToProps = (state) => ({
-  game: state.game
+  game: state.game,
+  current_player: state.game[state.game.current_player]
 })
 
-export default connect(mapStateToProps)(GamePage)
+const mapDispatchToProps = (dispatch) => ({
+  nextPlayer: () => dispatch(nextPlayer())
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(GamePage)

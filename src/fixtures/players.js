@@ -1,7 +1,9 @@
+import ships from '../seeds/ships'
+
 export default [{
   name: 'Sophie',
-  ships: []
+  ships
 }, {
   name: 'Frankie',
-  ships: []
+  ships
 }]

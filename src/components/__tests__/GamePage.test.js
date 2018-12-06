@@ -6,7 +6,8 @@ import players from '../../fixtures/players'
 
 const game = {
   player_one: players[0],
-  player_two: players[1]
+  player_two: players[1],
+  current_player: players[0]
 }
 
 test('renders correctly', () => {
