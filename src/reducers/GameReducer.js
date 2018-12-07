@@ -1,4 +1,5 @@
 import ships from '../seeds/ships'
+import grid from '../seeds/grid'
 
 const gameReducerDefaultState = {};
 
@@ -10,7 +11,8 @@ export default (state = gameReducerDefaultState, action) => {
       return {
         player_one,
         player_two,
-        current_player: 'player_one'
+        current_player: 'player_one',
+        grid
       }
     case 'NEXT_PLAYER':
       const current_player = state.current_player === 'player_one' ? 'player_two' : 'player_one'

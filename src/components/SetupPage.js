@@ -3,9 +3,6 @@ import { connect } from 'react-redux'
 import { startGame } from '../actions/GameActions'
 
 export class SetupPage extends React.Component {
-  constructor(props) {
-    super(props)
-  }
   state = {
     player_one_name: '',
     player_two_name: '',

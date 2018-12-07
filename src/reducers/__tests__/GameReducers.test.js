@@ -1,5 +1,6 @@
 import gameReducer from '../GameReducer'
 import players from '../../fixtures/players';
+import grid from '../../seeds/grid'
 
 
 
@@ -21,7 +22,8 @@ test('should add players to game', () => {
   expect(state).toEqual({
     player_one,
     player_two,
-    current_player: 'player_one'
+    current_player: 'player_one',
+    grid
   })
 })
 
