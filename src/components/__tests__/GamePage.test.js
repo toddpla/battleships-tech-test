@@ -9,6 +9,6 @@ let game = {
 }
 
 test('renders correctly', () => {
-  const setupScreen = renderer.create(<GamePage game={game} current_player={players[0]} />).toJSON();
-  expect(setupScreen).toMatchSnapshot();
+  const gamePage = renderer.create(<GamePage game={game} current_player={players[0]} />).toJSON();
+  expect(gamePage).toMatchSnapshot();
 });
