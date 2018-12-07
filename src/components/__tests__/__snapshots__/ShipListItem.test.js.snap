@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="ship-list"
+>
+  <h1>
+    Ships
+  </h1>
+  <article>
+    <div>
+      <h3>
+        Carrier
+      </h3>
+    </div>
+    <div>
+      <h3>
+        Battleship
+      </h3>
+    </div>
+    <div>
+      <h3>
+        Cruiser
+      </h3>
+    </div>
+    <div>
+      <h3>
+        Submarine
+      </h3>
+    </div>
+    <div>
+      <h3>
+        Destroyer
+      </h3>
+    </div>
+  </article>
+</div>
+`;

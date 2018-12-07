@@ -1,9 +1,14 @@
 import ships from '../seeds/ships'
+import grid from '../seeds/grid'
 
 export default [{
   name: 'Sophie',
-  ships
+  ships,
+  shipsGrid: grid,
+  strikesGrid: grid
 }, {
   name: 'Frankie',
-  ships
+  ships,
+  shipsGrid: grid,
+  strikesGrid: grid
 }]
