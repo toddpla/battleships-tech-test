@@ -4,11 +4,9 @@ import grid from '../seeds/grid'
 export default [{
   name: 'Sophie',
   ships,
-  shipsGrid: grid,
-  strikesGrid: grid
+  strikes: []
 }, {
   name: 'Frankie',
   ships,
-  shipsGrid: grid,
-  strikesGrid: grid
+  strikes: []
 }]

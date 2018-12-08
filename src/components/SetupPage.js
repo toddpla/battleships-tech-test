@@ -6,7 +6,6 @@ export class SetupPage extends React.Component {
   state = {
     player_one_name: '',
     player_two_name: '',
-
   }
 
   handleInputChange = (event) => {
@@ -18,7 +17,7 @@ export class SetupPage extends React.Component {
     const player_one = {name: this.state.player_one_name}
     const player_two = {name: this.state.player_two_name}
     this.props.startGame(player_one, player_two)
-    this.props.history.push('/game')
+    this.props.history.push('/placement')
   }
 
   render() {

@@ -3,6 +3,7 @@ import { GamePage } from '../GamePage'
 import renderer from 'react-test-renderer';
 import players from '../../fixtures/players'
 import grid from '../../seeds/grid'
+import {shallow} from 'enzyme'
 
 let game = {
   grid

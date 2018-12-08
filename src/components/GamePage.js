@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux';
 import { nextPlayer } from '../actions/GameActions'
 import Grid from './Grid'
+import ShipList from './ShipList'
 
 
 export class GamePage extends React.Component {
@@ -11,7 +12,7 @@ export class GamePage extends React.Component {
       <div>
         <h1>Current Player: {this.props.current_player.name}</h1>
         <button onClick={this.props.nextPlayer} > Next Player</button>
-        <Grid grid={this.props.game.grid}/>
+        <ShipList ships={this.props.current_player.ships} />
       </div>
     )
   }
@@ -27,3 +28,7 @@ const mapDispatchToProps = (dispatch) => ({
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(GamePage)
+
+
+// <Grid grid={this.props.current_player.grid} title="My Ships"/>
+// <Grid grid={this.props.current_player.strikesGrid} title="My Strikes"/>

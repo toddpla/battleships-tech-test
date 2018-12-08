@@ -23,7 +23,6 @@ test('should add players to game', () => {
     player_one,
     player_two,
     current_player: 'player_one',
-    grid
   })
 })
 
@@ -43,4 +42,20 @@ test('should switch rotate current player', () => {
   }
   const updatedState = gameReducer(state, action)
   expect(updatedState).toEqual(expectedState)
+})
+
+test('should place a ship', () => {
+  const squares = [1,2,3]
+  const state = {
+    player_one,
+    player_two,
+    current_player: 'player_one'
+  }
+  const action = {
+    type: 'PLACE_SHIP',
+    ship: 1,
+    squares
+  }
+  const updatedState = gameReducer(state, action)
+  expect(updatedState.player_one.ships[1].squares).toEqual(squares)
 })

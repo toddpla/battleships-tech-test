@@ -8,7 +8,15 @@ export class ShipList extends React.Component {
       <div className="ship-list">
         <h1>Ships</h1>
         <article>
-          {this.props.ships.map(ship => <ShipListItem key={ship.id} {...ship} />)}
+          {this.props.ships.map((ship, i) => (
+            <ShipListItem
+              key={i}
+              index={i}
+              selectedClass={i == this.props.selectedShip ? "ship-selected" : "ship-unselected"}
+              handleSelect={this.props.handleSelect}
+              {...ship}
+              />
+          ))}
         </article>
       </div>
     )

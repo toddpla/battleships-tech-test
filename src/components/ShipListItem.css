@@ -1,0 +1,8 @@
+.ship:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ship-selected {
+  font-weight: bold;
+}

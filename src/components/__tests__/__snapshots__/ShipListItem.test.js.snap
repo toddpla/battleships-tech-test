@@ -8,30 +8,40 @@ exports[`renders correctly 1`] = `
     Ships
   </h1>
   <article>
-    <div>
-      <h3>
-        Carrier
-      </h3>
+    <div
+      className="ship ship-unselected"
+      id="ship-0"
+      onClick={[Function]}
+    >
+      Carrier
     </div>
-    <div>
-      <h3>
-        Battleship
-      </h3>
+    <div
+      className="ship ship-unselected"
+      id="ship-1"
+      onClick={[Function]}
+    >
+      Battleship
     </div>
-    <div>
-      <h3>
-        Cruiser
-      </h3>
+    <div
+      className="ship ship-unselected"
+      id="ship-2"
+      onClick={[Function]}
+    >
+      Cruiser
     </div>
-    <div>
-      <h3>
-        Submarine
-      </h3>
+    <div
+      className="ship ship-unselected"
+      id="ship-3"
+      onClick={[Function]}
+    >
+      Submarine
     </div>
-    <div>
-      <h3>
-        Destroyer
-      </h3>
+    <div
+      className="ship ship-unselected"
+      id="ship-4"
+      onClick={[Function]}
+    >
+      Destroyer
     </div>
   </article>
 </div>

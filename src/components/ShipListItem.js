@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import './ShipListItem.css'
 
 export class ShipListItem extends Component {
 
+  handleSelect = () => {this.props.handleSelect(this.props.name)}
+
   render() {
     return (
-      <div>
-        <h3>{this.props.name}</h3>
+      <div
+        id={`ship-${this.props.name}`}
+        className={`ship ${this.props.selectedClass}`}
+        onClick={this.handleSelect}
+        >
+        {this.props.name}
       </div>
     );
   }

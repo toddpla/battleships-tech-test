@@ -23,4 +23,13 @@ describe('actions', () => {
     }
     expect(actions.nextPlayer()).toEqual(expectedAction)
   })
+  it('should create an action to place the current players slected ship', () => {
+    const expectedAction = {
+      type: "PLACE_SHIP",
+      ship: 'Carrier',
+      squares: [1,2,3,4]
+    }
+    expect(actions.placeShip("Carrier", [1,2,3,4])).toEqual(expectedAction)
+  })
+
 })
