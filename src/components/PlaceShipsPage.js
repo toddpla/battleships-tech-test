@@ -95,15 +95,18 @@ export class PlaceShipPage extends React.Component {
           selectedSquareID={this.state.square}
           />
         {(this.props.unSelectedShips.length > 0) &&
-          <DirectionToggle
-            direction={this.state.direction}
-            handleToggle={this.handleToggleDirection}
-            />
-          <ShipList
-            ships={this.props.unSelectedShips}
-            handleSelect={this.handleSelectShip}
-            selectedShip={this.state.ship}
-            />}
+          <div>
+            <DirectionToggle
+              direction={this.state.direction}
+              handleToggle={this.handleToggleDirection}
+              />
+            <ShipList
+              ships={this.props.unSelectedShips}
+              handleSelect={this.handleSelectShip}
+              selectedShip={this.state.ship}
+              />
+            </div>
+          }
       </div>
     )
   }

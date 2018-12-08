@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <div
   className="ship undefined"
-  id="ship-undefined"
+  id="ship-Carrier"
   onClick={[Function]}
 >
   Carrier

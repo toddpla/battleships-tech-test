@@ -53,9 +53,9 @@ test('should place a ship', () => {
   }
   const action = {
     type: 'PLACE_SHIP',
-    ship: 1,
+    ship: 'Destroyer',
     squares
   }
   const updatedState = gameReducer(state, action)
-  expect(updatedState.player_one.ships[1].squares).toEqual(squares)
+  expect(updatedState.player_one.ships.find(ship => ship.name === 'Destroyer').squares).toEqual(squares)
 })

@@ -10,35 +10,35 @@ exports[`renders correctly 1`] = `
   <article>
     <div
       className="ship ship-unselected"
-      id="ship-0"
+      id="ship-Carrier"
       onClick={[Function]}
     >
       Carrier
     </div>
     <div
       className="ship ship-unselected"
-      id="ship-1"
+      id="ship-Battleship"
       onClick={[Function]}
     >
       Battleship
     </div>
     <div
       className="ship ship-unselected"
-      id="ship-2"
+      id="ship-Cruiser"
       onClick={[Function]}
     >
       Cruiser
     </div>
     <div
       className="ship ship-unselected"
-      id="ship-3"
+      id="ship-Submarine"
       onClick={[Function]}
     >
       Submarine
     </div>
     <div
       className="ship ship-unselected"
-      id="ship-4"
+      id="ship-Destroyer"
       onClick={[Function]}
     >
       Destroyer
