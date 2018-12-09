@@ -13,3 +13,8 @@ export const placeShip = (ship, squares) => ({
   ship,
   squares
 })
+
+export const placeStrike = square => ({
+  type: "PLACE_STRIKE",
+  square
+})

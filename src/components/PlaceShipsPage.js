@@ -12,7 +12,6 @@ export class PlaceShipPage extends React.Component {
   constructor(props, context) {
     super(props, context)
     this.validatePlacement = this.validatePlacement.bind(this)
-    this.constructGrid = this.constructGrid.bind(this)
   }
 
   state = {
@@ -61,19 +60,6 @@ export class PlaceShipPage extends React.Component {
     })
   }
 
-  constructGrid() {
-    const shipSquares = [].concat.apply([], this.props.current_player.ships.map(ship => ship.squares))
-    const grid = []
-    for (let i =0; i < 100; i++) {
-      if (shipSquares.includes(i)) {
-        grid.push('ship')
-      } else {
-        grid.push('empty')
-      }
-    }
-    return grid
-  }
-
   componentDidUpdate() {
     if (this.state.ship !== null && this.state.square !== null && this.state.direction !== null && this.state.squares !== null) {
       this.props.placeShip(this.state.ship, this.state.squares)
@@ -82,9 +68,13 @@ export class PlaceShipPage extends React.Component {
         square: null,
         squares: null
       })
-      this.props.unSelectedShips.length === 1 && this.props.nextPlayer()
-      this.forceUpdate()
-      this.props.unSelectedShips.length === 0 && this.props.histoy.push('/game')
+      if (this.props.unSelectedShips.length === 1) {
+        this.props.nextPlayer()
+        this.setState({
+          direction: 'horizontal'
+        })
+      }
+      this.props.game.player_one.isSetup() && this.props.game.player_two.isSetup() && this.props.history.push('/game')
     }
   }
 
@@ -93,8 +83,9 @@ export class PlaceShipPage extends React.Component {
       <div>
         <h1>Current Player: <span id="current-player-name">{this.props.current_player.name}</span></h1>
         <Grid
-          grid={this.constructGrid()}
           title="Place Ships"
+          type="owner"
+          grid={this.props.current_player.grid.ownerView([])}
           handleSelectSquare={this.handleSelectSquare}
           selectedSquareID={this.state.square}
           />

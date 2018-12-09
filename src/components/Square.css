@@ -5,9 +5,7 @@
   text-align: center;
 }
 
-
-
-.square:hover {
+.square-empty:hover {
   color: white;
   background-color: black;
   cursor: pointer;
@@ -25,6 +23,16 @@
 }
 
 .square-ship {
+  pointer-events: none;
   background-color: black;
 }
-;
+
+.square-strike {
+  pointer-events: none;
+  background-color: green;
+}
+
+.square-ship-striked {
+  pointer-events: none;
+  background-color: red;
+}
