@@ -6,7 +6,7 @@ import players from '../../fixtures/players'
 
 test('should set default state', () => {
   const state = gameReducer(undefined, {type: '@@INIT'})
-  expect(state).toEqual({current_player: 'player_one'})
+  expect(state).toEqual({current_player: 'player_one', opponent: 'player_two'})
 })
 
 let player_one = new Player({...players[0], ships: ships.map(ship => new Ship({...ship}))})
@@ -24,6 +24,7 @@ test('should add players to game', () => {
     player_one,
     player_two,
     current_player: 'player_one',
+    opponent: 'player_two'
   })
 })
 
@@ -31,12 +32,14 @@ test('should switch rotate current player', () => {
   const state = {
     player_one,
     player_two,
-    current_player: 'player_one'
+    current_player: 'player_one',
+    opponent: 'player_two'
   }
   const expectedState = {
     player_one,
     player_two,
-    current_player: 'player_two'
+    current_player: 'player_two',
+    opponent: 'player_one'
   }
   const action = {
     type: 'NEXT_PLAYER',
@@ -50,7 +53,8 @@ test('should place a ship', () => {
   const state = {
     player_one,
     player_two,
-    current_player: 'player_one'
+    current_player: 'player_one',
+    opponent: 'player_two'
   }
   const action = {
     type: 'PLACE_SHIP',
@@ -66,7 +70,8 @@ test('should add a strike to the current players strikes', () => {
   const state = {
     player_one,
     player_two,
-    current_player: 'player_one'
+    current_player: 'player_one',
+    current_player: 'player_two'
   }
   const action = {
     type: 'PLACE_STRIKE',

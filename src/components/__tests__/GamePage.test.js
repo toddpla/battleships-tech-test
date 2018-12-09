@@ -14,6 +14,6 @@ let game = {
 }
 
 test('renders correctly', () => {
-  const gamePage = renderer.create(<GamePage game={game} current_player={game.player_one} />).toJSON();
+  const gamePage = renderer.create(<GamePage game={game} current_player={game.player_one} opponent={game.player_two} />).toJSON();
   expect(gamePage).toMatchSnapshot();
 });

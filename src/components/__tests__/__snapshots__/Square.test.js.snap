@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 <td
   className="square square-unselected square-undefined"
-  id="square-undefined"
+  id="undefined-square-undefined"
   onClick={[Function]}
 />
 `;
