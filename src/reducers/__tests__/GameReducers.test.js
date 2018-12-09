@@ -60,3 +60,18 @@ test('should place a ship', () => {
   const updatedState = gameReducer(state, action)
   expect(updatedState.player_one.ships.find(ship => ship.name === 'Destroyer').squares).toEqual(squares)
 })
+
+test('should add a strike to the current players strikes', () => {
+  const square = 1
+  const state = {
+    player_one,
+    player_two,
+    current_player: 'player_one'
+  }
+  const action = {
+    type: 'PLACE_STRIKE',
+    square
+  }
+  const updatedState = gameReducer(state, action)
+  expect(updatedState.player_one.strikes).toEqual[square]
+})

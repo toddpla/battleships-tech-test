@@ -1,10 +1,13 @@
 import ships from '../seeds/ships'
-import Ship from '../models/ship'
-import Player from '../models/player'
+import Ship from '../models/Ship'
+import Player from '../models/Player'
 
-const gameReducerDefaultState = {current_player: 'player_one'};
+const gameReducerDefaultState = {current_player: 'player_one', opponent: 'player_two'};
 
 export default (state = gameReducerDefaultState, action) => {
+
+  const player = state[state.current_player]
+
   switch (action.type) {
     case 'START_GAME':
       return {
@@ -15,11 +18,17 @@ export default (state = gameReducerDefaultState, action) => {
     case 'NEXT_PLAYER':
       return {
         ...state,
-        current_player: state.current_player === 'player_one' ? 'player_two' : 'player_one'
+        current_player: state.opponent,
+        opponent: state.current_player
       }
     case 'PLACE_SHIP':
-      const player = state[state.current_player]
       player.ships.find(ship => ship.name === action.ship).squares = action.squares
+      return {
+        ...state,
+        [state.current_player]: player
+      }
+    case 'PLACE_STRIKE':
+      player.strikes.push(action.square)
       return {
         ...state,
         [state.current_player]: player

@@ -8,7 +8,7 @@ export class Square extends React.Component {
   render() {
     return (
       <td
-        id={`square-${this.props.id}`}
+        id={`${this.props.type}-square-${this.props.id}`}
         className={`square ${this.props.selected ? "square-selected" : "square-unselected"} square-${this.props.condition}`}
         onClick={this.handleSelect}
         >

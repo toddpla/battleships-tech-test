@@ -28,5 +28,12 @@ describe('actions', () => {
     }
     expect(actions.placeShip("Carrier", [1,2,3,4])).toEqual(expectedAction)
   })
+  it('should create the action add a strike by current player', () => {
+    const expectedAction = {
+      type: "PLACE_STRIKE",
+      square: 1
+    }
+    expect(actions.placeStrike(1)).toEqual(expectedAction)
+  })
 
 })
