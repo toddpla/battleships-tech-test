@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <td
-  className="square square-unselected square-undefined"
+  className="square square-unselected square-undefined square-undefined"
   id="undefined-square-undefined"
   onClick={[Function]}
 />

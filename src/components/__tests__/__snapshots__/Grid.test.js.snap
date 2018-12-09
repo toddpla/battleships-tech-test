@@ -7,520 +7,520 @@ exports[`renders correctly 1`] = `
     <tbody>
       <tr>
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-0"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-1"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-2"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-3"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-4"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-5"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-6"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-7"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-8"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-9"
           onClick={[Function]}
         />
       </tr>
       <tr>
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-10"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-11"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-12"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-13"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-14"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-15"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-16"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-17"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-18"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-19"
           onClick={[Function]}
         />
       </tr>
       <tr>
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-20"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-21"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-22"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-23"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-24"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-25"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-26"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-27"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-28"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-29"
           onClick={[Function]}
         />
       </tr>
       <tr>
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-30"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-31"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-32"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-33"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-34"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-35"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-36"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-37"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-38"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-39"
           onClick={[Function]}
         />
       </tr>
       <tr>
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-40"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-41"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-42"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-43"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-44"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-45"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-46"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-47"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-48"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-49"
           onClick={[Function]}
         />
       </tr>
       <tr>
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-50"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-51"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-52"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-53"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-54"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-55"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-56"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-57"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-58"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-59"
           onClick={[Function]}
         />
       </tr>
       <tr>
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-60"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-61"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-62"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-63"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-64"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-65"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-66"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-67"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-68"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-69"
           onClick={[Function]}
         />
       </tr>
       <tr>
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-70"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-71"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-72"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-73"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-74"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-75"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-76"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-77"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-78"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-79"
           onClick={[Function]}
         />
       </tr>
       <tr>
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-80"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-81"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-82"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-83"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-84"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-85"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-86"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-87"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-88"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-89"
           onClick={[Function]}
         />
       </tr>
       <tr>
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-90"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-91"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-92"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-93"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-94"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-95"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-96"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-97"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-98"
           onClick={[Function]}
         />
         <td
-          className="square square-unselected square-undefined"
+          className="square square-unselected square-undefined square-undefined"
           id="undefined-square-99"
           onClick={[Function]}
         />
