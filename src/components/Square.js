@@ -9,7 +9,7 @@ export class Square extends React.Component {
     return (
       <td
         id={`${this.props.type}-square-${this.props.id}`}
-        className={`square ${this.props.selected ? "square-selected" : "square-unselected"} square-${this.props.condition}`}
+        className={`square ${this.props.selected ? "square-selected" : "square-unselected"} square-${this.props.condition} square-${this.props.type}`}
         onClick={this.handleSelect}
         >
       </td>

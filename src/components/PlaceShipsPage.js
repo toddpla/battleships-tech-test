@@ -36,7 +36,7 @@ export class PlaceShipPage extends React.Component {
       [parameter]: value
     }
     let squares = [];
-    if (valState.square !== null) {
+    if (valState.square !== null && valState.ship !== null && valState.direction !== null) {
       if (valState.direction === 'horizontal') {
         for(let i = 0; i < ships.find(ship => ship.name === valState.ship).size; i++) {
           squares.push(valState.square + i)
@@ -84,7 +84,7 @@ export class PlaceShipPage extends React.Component {
         <h1>Current Player: <span id="current-player-name">{this.props.current_player.name}</span></h1>
         <Grid
           title="Place Ships"
-          type="owner"
+          type="placement"
           grid={this.props.current_player.grid.ownerView([])}
           handleSelectSquare={this.handleSelectSquare}
           selectedSquareID={this.state.square}

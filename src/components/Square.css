@@ -11,6 +11,10 @@
   cursor: pointer;
 }
 
+.square-owner {
+  pointer-events: none;
+}
+
 .square-button{
    display:inline-block;
    width: 20px;

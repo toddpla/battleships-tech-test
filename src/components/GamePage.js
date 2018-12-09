@@ -30,11 +30,6 @@ export class GamePage extends React.Component {
           grid={this.props.opponent.grid.opponentView(this.props.current_player.strikes)}
           handleSelectSquare={this.handleStrikeSquare}
           />
-        <button
-          onClick={this.props.nextPlayer}
-          >
-            Next Player
-          </button>
       </div>
     )
   }
