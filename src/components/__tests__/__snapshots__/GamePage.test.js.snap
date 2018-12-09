@@ -17,35 +17,35 @@ exports[`renders correctly 1`] = `
     </h1>
     <article>
       <div
-        className="ship ship-unselected"
+        className="ship false"
         id="ship-Carrier"
         onClick={[Function]}
       >
         Carrier
       </div>
       <div
-        className="ship ship-unselected"
+        className="ship false"
         id="ship-Battleship"
         onClick={[Function]}
       >
         Battleship
       </div>
       <div
-        className="ship ship-unselected"
+        className="ship false"
         id="ship-Cruiser"
         onClick={[Function]}
       >
         Cruiser
       </div>
       <div
-        className="ship ship-unselected"
+        className="ship false"
         id="ship-Submarine"
         onClick={[Function]}
       >
         Submarine
       </div>
       <div
-        className="ship ship-unselected"
+        className="ship false"
         id="ship-Destroyer"
         onClick={[Function]}
       >

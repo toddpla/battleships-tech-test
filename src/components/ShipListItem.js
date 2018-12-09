@@ -9,7 +9,7 @@ export class ShipListItem extends Component {
     return (
       <div
         id={`ship-${this.props.name}`}
-        className={`ship ${this.props.selectedClass}`}
+        className={`ship ${this.props.selected && "ship-selected"}`}
         onClick={this.handleSelect}
         >
         {this.props.name}

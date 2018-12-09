@@ -75,7 +75,6 @@ export class PlaceShipPage extends React.Component {
   }
 
   componentDidUpdate() {
-    debugger
     if (this.state.ship !== null && this.state.square !== null && this.state.direction !== null && this.state.squares !== null) {
       this.props.placeShip(this.state.ship, this.state.squares)
       this.setState({

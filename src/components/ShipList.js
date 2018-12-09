@@ -12,7 +12,7 @@ export class ShipList extends React.Component {
             <ShipListItem
               key={i}
               index={i}
-              selectedClass={i == this.props.selectedShip ? "ship-selected" : "ship-unselected"}
+              selected={ship.name == this.props.selectedShip}
               handleSelect={this.props.handleSelect}
               {...ship}
               />

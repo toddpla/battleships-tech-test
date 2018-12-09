@@ -8,61 +8,51 @@ exports[`renders correctly 1`] = `
       <tr>
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-0"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-1"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-2"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-3"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-4"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-5"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-6"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-7"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-8"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-9"
           onClick={[Function]}
         />
@@ -70,61 +60,51 @@ exports[`renders correctly 1`] = `
       <tr>
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-10"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-11"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-12"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-13"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-14"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-15"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-16"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-17"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-18"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-19"
           onClick={[Function]}
         />
@@ -132,61 +112,51 @@ exports[`renders correctly 1`] = `
       <tr>
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-20"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-21"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-22"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-23"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-24"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-25"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-26"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-27"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-28"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-29"
           onClick={[Function]}
         />
@@ -194,61 +164,51 @@ exports[`renders correctly 1`] = `
       <tr>
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-30"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-31"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-32"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-33"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-34"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-35"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-36"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-37"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-38"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-39"
           onClick={[Function]}
         />
@@ -256,61 +216,51 @@ exports[`renders correctly 1`] = `
       <tr>
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-40"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-41"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-42"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-43"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-44"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-45"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-46"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-47"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-48"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-49"
           onClick={[Function]}
         />
@@ -318,61 +268,51 @@ exports[`renders correctly 1`] = `
       <tr>
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-50"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-51"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-52"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-53"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-54"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-55"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-56"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-57"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-58"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-59"
           onClick={[Function]}
         />
@@ -380,61 +320,51 @@ exports[`renders correctly 1`] = `
       <tr>
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-60"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-61"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-62"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-63"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-64"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-65"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-66"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-67"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-68"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-69"
           onClick={[Function]}
         />
@@ -442,61 +372,51 @@ exports[`renders correctly 1`] = `
       <tr>
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-70"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-71"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-72"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-73"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-74"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-75"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-76"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-77"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-78"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-79"
           onClick={[Function]}
         />
@@ -504,61 +424,51 @@ exports[`renders correctly 1`] = `
       <tr>
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-80"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-81"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-82"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-83"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-84"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-85"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-86"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-87"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-88"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-89"
           onClick={[Function]}
         />
@@ -566,61 +476,51 @@ exports[`renders correctly 1`] = `
       <tr>
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-90"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-91"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-92"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-93"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-94"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-95"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-96"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-97"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-98"
           onClick={[Function]}
         />
         <td
           className="square square-unselected square-undefined"
-          disabled={true}
           id="square-99"
           onClick={[Function]}
         />
