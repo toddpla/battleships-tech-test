@@ -1,22 +1,23 @@
 import gameReducer from '../GameReducer'
-import players from '../../fixtures/players';
-import grid from '../../seeds/grid'
-
-
+import Player from '../../models/Player'
+import Ship from '../../models/Ship'
+import ships from '../../seeds/ships'
+import players from '../../fixtures/players'
 
 test('should set default state', () => {
   const state = gameReducer(undefined, {type: '@@INIT'})
-  expect(state).toEqual({})
+  expect(state).toEqual({current_player: 'player_one'})
 })
 
-let player_one =  players[0]
-let player_two = players[1]
+let player_one = new Player({...players[0], ships: ships.map(ship => new Ship({...ship}))})
+let player_two = new Player({...players[1], ships: ships.map(ship => new Ship({...ship}))})
+
 
 test('should add players to game', () => {
   const action = {
     type: 'START_GAME',
-    player_one,
-    player_two
+    player_one: players[0],
+    player_two: players[1]
   }
   const state = gameReducer(undefined, action)
   expect(state).toEqual({

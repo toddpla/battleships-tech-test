@@ -15,7 +15,8 @@ export class Grid extends React.Component {
               id={i+k}
               square={square}
               handleSelect={this.props.handleSelectSquare}
-              selectedClass={(i+k) == this.props.selectedSquareID ? "square-selected" : "square-unselected"}
+              selected={(i+k) == this.props.selectedSquareID}
+              condition={square}
               />
           )
         })}

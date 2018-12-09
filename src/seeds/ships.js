@@ -15,6 +15,4 @@ const ships = [{
   size: 2
 }]
 
-let squares = [];
-
-export default ships.map(ship => ({...ship, squares}))
+export default ships

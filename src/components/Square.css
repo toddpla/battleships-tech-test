@@ -5,13 +5,26 @@
   text-align: center;
 }
 
+
+
 .square:hover {
   color: white;
   background-color: black;
   cursor: pointer;
 }
 
+.square-button{
+   display:inline-block;
+   width: 20px;
+   height: 20px;
+}
+
 .square-selected {
   color: white;
   background-color: black;
 }
+
+.square-ship {
+  background-color: black;
+}
+;

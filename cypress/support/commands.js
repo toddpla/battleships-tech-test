@@ -29,3 +29,17 @@ Cypress.Commands.add('setup', () => {
   cy.get('#player_two_name').type('James')
   cy.get('form').submit()
 })
+
+Cypress.Commands.add('placeShips', () => {
+  cy.get('#ship-Carrier').click()
+  cy.get('#square-55').click()
+  cy.get('#ship-Battleship').click()
+  cy.get('#square-10').click()
+  cy.get('#ship-Cruiser').click()
+  cy.get('#direction-toggle').click()
+  cy.get('#square-20').click()
+  cy.get('#ship-Submarine').click()
+  cy.get('#square-61').click()
+  cy.get('#ship-Destroyer').click()
+  cy.get('#square-89').click()
+})

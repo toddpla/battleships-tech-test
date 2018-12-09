@@ -4,8 +4,11 @@ export class DirectionToggle extends Component {
 
   render() {
     return (
-      <span onClick={this.props.handleToggle}>
-        {this.props.direction}
+      <span
+        id="direction-toggle"
+        onClick={this.props.handleToggle}
+        >
+          {this.props.direction}
       </span>
     );
   }

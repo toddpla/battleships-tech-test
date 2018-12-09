@@ -28,7 +28,3 @@ const mapDispatchToProps = (dispatch) => ({
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(GamePage)
-
-
-// <Grid grid={this.props.current_player.grid} title="My Ships"/>
-// <Grid grid={this.props.current_player.strikesGrid} title="My Strikes"/>

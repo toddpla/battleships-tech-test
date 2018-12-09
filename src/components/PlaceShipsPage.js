@@ -4,7 +4,6 @@ import { nextPlayer, placeShip } from '../actions/GameActions'
 import Grid from './Grid'
 import ShipList from './ShipList'
 import DirectionToggle from './DirectionToggle'
-import grid from '../seeds/grid'
 import ships from '../seeds/ships'
 import { unSelectedShips } from '../selectors/ships'
 
@@ -43,6 +42,10 @@ export class PlaceShipPage extends React.Component {
         for(let i = 0; i < ships.find(ship => ship.name === valState.ship).size; i++) {
           squares.push(valState.square + i)
         }
+      } else {
+        for(let i = 0; i < ships.find(ship => ship.name === valState.ship).size; i++) {
+          squares.push(valState.square + (10 * i))
+        }
       }
     }
     this.props.current_player.ships.forEach(ship => {
@@ -63,16 +66,16 @@ export class PlaceShipPage extends React.Component {
     const grid = []
     for (let i =0; i < 100; i++) {
       if (shipSquares.includes(i)) {
-        console.log('here')
-        grid.push('X')
+        grid.push('ship')
       } else {
-        grid.push(' ')
+        grid.push('empty')
       }
     }
     return grid
   }
 
   componentDidUpdate() {
+    debugger
     if (this.state.ship !== null && this.state.square !== null && this.state.direction !== null && this.state.squares !== null) {
       this.props.placeShip(this.state.ship, this.state.squares)
       this.setState({
@@ -80,14 +83,16 @@ export class PlaceShipPage extends React.Component {
         square: null,
         squares: null
       })
+      this.props.unSelectedShips.length === 1 && this.props.nextPlayer()
+      this.forceUpdate()
+      this.props.unSelectedShips.length === 0 && this.props.histoy.push('/game')
     }
   }
 
   render() {
-    console.log(this.props.unSelectedShips);
     return (
       <div>
-        <h1>Current Player: {this.props.current_player.name}</h1>
+        <h1>Current Player: <span id="current-player-name">{this.props.current_player.name}</span></h1>
         <Grid
           grid={this.constructGrid()}
           title="Place Ships"
@@ -114,6 +119,7 @@ export class PlaceShipPage extends React.Component {
 
 const mapStateToProps = (state) => {
   const current_player = state.game[state.game.current_player]
+  console.log(current_player);
   return {
     game: state.game,
     current_player,
